@@ -1,0 +1,11 @@
+{
+    "name": "AuthKit",
+    "alias": "authkit",
+    "description": "",
+    "keywords": [],
+    "priority": 0,
+    "providers": [
+        "Modules\\AuthKit\\Providers\\AuthKitServiceProvider"
+    ],
+    "files": []
+}
