@@ -20,3 +20,4 @@ use Modules\NewsFeed\Http\Controllers\PostController;
 // });
 
 Route::apiResource('posts', PostController::class)->names('posts');
+Route::get('/posts/hashtag/{tag}', [PostController::class, 'getPostsByHashtag']);
